@@ -12,5 +12,6 @@ public class NewUser {
         if (!password.equals(confirmPassword)) {
             throw new WrongPasswordException("Пароли не совпадают");
         }
+
     }
 }
