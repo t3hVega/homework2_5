@@ -1,5 +1,5 @@
-public class WrongPasswordException extends Throwable{
-    public WrongPasswordException() {
-        super();
+public class WrongPasswordException extends RuntimeException{
+    public WrongPasswordException(String message) {
+        super(message);
     }
 }
